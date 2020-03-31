@@ -2,20 +2,16 @@ package model;
 
 public class Player {
     private String name;
-    private string god;
+    private String god;
     private int playerId;
 
-
-
-    public void setName (String name){
+    public Player( String name, int id, String god){
         this.name = name;
-    }
-
-    public void setGod (String god){
         this.god = god;
+        this.playerId = id;
     }
 
-    public Name getName (){
+    public String getName (){
         return name;
     }
 
@@ -23,4 +19,7 @@ public class Player {
         return god;
     }
 
+    public int getPlayerId() {
+        return playerId;
+    }
 }
