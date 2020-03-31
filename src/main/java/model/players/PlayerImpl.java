@@ -5,8 +5,8 @@ public class  PlayerImpl implements Player {
 
     public PlayerImpl(String name){
         System.out.println("Enter your name, player1: ");
-        Scanner input = new Scanner(System.in);
-        this.name = input.nextLine();
+        //Scanner input = new Scanner(System.in);
+        //this.name = input.nextLine();
     }
 
     public String getName(){

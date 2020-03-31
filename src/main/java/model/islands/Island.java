@@ -1,9 +1,9 @@
 package model.islands;
 
 public class Island {
-    private Box [5][5] board;
+    private Box [][] board;
 
-
+/*
     public Island(){
         for(int i=0; i<5; i++) {
             for (int j = 0; j < 5; j++){
@@ -11,6 +11,6 @@ public class Island {
             }
         }
     }
-
+*/
 //public refreshIsland??
 }
