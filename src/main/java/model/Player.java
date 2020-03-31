@@ -2,7 +2,7 @@ package model;
 
 public class Player {
     private String name;
-    private string god;
+    private String god;
     private int playerId;
 
 
@@ -15,7 +15,7 @@ public class Player {
         this.god = god;
     }
 
-    public Name getName (){
+    public String getName (){
         return name;
     }
 
