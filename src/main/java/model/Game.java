@@ -1,12 +1,13 @@
 package model;
 
+import model.Turn.Turn;
+
 public class Game {
     private int playersNumber;
     private Turn turn;
     private Turn prevTurn;
     private Player[] players;
-    private int currPlayer;
-    currPlayer = 1;
+    private int currPlayer = 1;
 
     public void setPlayersNumber (int number){
         this.playersNumber = number;

@@ -1,5 +1,8 @@
 package model;
 
+
+import model.islands.Box;
+
 public class Worker {
     private int workerId;
     private Player player;
@@ -19,7 +22,7 @@ public class Worker {
         return workerId;
     }
 
-    public Box getStart{
+    public Box getStart(){
         return start;
     }
 
